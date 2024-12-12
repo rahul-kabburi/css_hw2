@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    line-height: 1.6;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 90px;
+    align-items: center;
+    background: linear-gradient(180deg ,black,rgb(40, 40, 40),grey) ;
+}
+
+.hero_image img{
+    height: 80vh;
+    width: 99vw;
+}
+
+.box_images img{
+    height: 70vh;
+    width: 32vw;
+    padding: 30px;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+#footer{
+    background-color: black;
+    height: 75vh;
+    width: 100%;
+    display: flex; 
+}
+
+.text {
+    width: 50%;
+    text-align: left;
+    padding: 40px;
+    margin-top: 30vh;
+}
+.limage img {
+    width: 50%;
+    height: 60vh;
+    width: 40vw;
+    margin-top: 8vh;
+}
